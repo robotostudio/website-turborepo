@@ -26,9 +26,6 @@
           ".next/**"
         ]
       },
-      "lint": {
-        "outputs": []
-      },
       "dev": {
         "cache": false
       }
