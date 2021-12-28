@@ -1,6 +1,6 @@
-# Turborepo starter
+# Roboto Studio Turborepo/Sanity/Next starter
 
-This is an official Yarn v1 starter turborepo.
+Following the announcement of Vercel accquiring TurboRepo, we wanted to pull together all our favourite packages to create a "best in class" framework for building a website
 
 ## What's inside?
 
@@ -8,9 +8,8 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: a [Next.js](https://nextjs.org) app
+- `sanity`: a [Sanity](https://sanity.io) CMS
 - `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
@@ -24,6 +23,7 @@ This turborepo has some additional tools already setup for you:
 - [ESLint](https://eslint.org/) for code linting
 - [Jest](https://jestjs.io) test runner for all things JavaScript
 - [Prettier](https://prettier.io) for code formatting
+- [Chakra UI](https://chakra-ui.com) an awesome frontend framework similar to tailwind
 
 ## Setup
 
