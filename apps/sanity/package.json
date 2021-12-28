@@ -1,10 +1,9 @@
 {
-  "name": "sanity-nextjs-example-studio",
+  "name": "sanity-turborepo",
   "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "package.json",
-  "author": "Bjørge Næss <bjoerge@sanity.io>",
   "license": "UNLICENSED",
   "scripts": {
     "dev": "sanity start",
