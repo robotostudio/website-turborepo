@@ -2,6 +2,34 @@
 
 Following the announcement of Vercel accquiring TurboRepo, we wanted to pull together all our favourite packages to create a "best in class" framework for building a website
 
+## Getting started
+
+1. Clone repo
+   ```
+   git clone https://github.com/robotostudio/website-turborepo
+   ```
+1. Install dependencies
+   ```
+   yarn
+   ```
+1. Setup Sanity
+   ```
+   cd app/studio && sanity init
+   ```
+   This will prompt you if you want to reconfigure the project. Answer yes and follow instructions to create a new project.
+1. Setup Vercel deployment
+   ```
+   vercel
+   ```
+   When asked about build settings, make sure to use `yarn dev` as the development command
+
+## Notes
+
+In development (using `yarn dev`)
+
+- The Next.js application will run on https://localhost:3000
+- The Sanity Studio dev server will run on http://localhost:3333/studio
+
 ## What's inside?
 
 This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package manager. It includes the following packages/apps:
